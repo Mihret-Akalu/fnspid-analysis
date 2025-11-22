@@ -1,0 +1,25 @@
+# Virtual env
+.venv/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Data
+data/
+outputs/
+
+# Logs
+*.log
+data/raw_analyst_ratings.csv
