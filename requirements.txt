@@ -1,0 +1,13 @@
+pandas==2.2.0
+numpy==1.26.0
+matplotlib==3.7.2
+scikit-learn==1.2.2
+nltk==3.8.1
+sentence-transformers==2.2.2
+yfinance==0.2.26
+ta==0.10.1
+pytest==7.4.0
+transformers==4.35.0
+torch==2.2.0
+gensim==4.4.0
+statsmodels==0.14.0
