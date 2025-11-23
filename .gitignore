@@ -1,29 +1,33 @@
-# Virtual env
-.venv/
-
-# Bytecode
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
+*.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/processed/
+data/raw/
+*.csv
+*.parquet
 
 # Jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# VS Code
-.vscode/
-
-# Data
-data/
-outputs/
-
 # Logs
 *.log
-# Ignore raw datasets
-data/raw_analyst_ratings.csv
 
-# Ignore notebook outputs
-notebooks/outputs/
+# Temporary files
+*.tmp
+*.temp
