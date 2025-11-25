@@ -1,0 +1,24 @@
+
+# Sentiment-Stock Correlation Analysis Summary
+Generated: 2025-11-25 14:40:01
+
+## Dataset Overview
+- News articles analyzed: 6
+- Available stocks: ['AAPL', 'AMZN', 'GOOGL', 'META', 'MSFT', 'NVDA']
+- Stocks with aligned data: 2
+- Analysis period: 2023-01-15 to 2023-01-18
+
+## Sentiment Distribution
+sentiment_label
+POSITIVE    4
+NEUTRAL     2
+
+## Key Findings
+- Stocks analyzed for correlations: 0
+- Correlation pairs calculated: 8
+- Average Pearson correlation: 0.193
+- Strongest positive correlation: 0.350
+- Strongest negative correlation: -0.080
+
+## Trading Strategy Performance
+0 stocks had sufficient data for strategy simulation
