@@ -23,20 +23,21 @@ try:
     # Test data loading
     loader = StockDataLoader("../data/yfinance_data")
     stocks = loader.get_available_stocks()
-    print(f\"Available stocks: {stocks}\")
+    print(f"Available stocks: {stocks}")
     
     if stocks:
         data = loader.load_stock_from_csv(stocks[0])
         if data is not None:
-            print(f\"Data loaded: {len(data)} rows\")
+            print(f"Data loaded: {len(data)} rows")
             
             # Test indicators
             analyzer = TechnicalIndicators(data)
             analyzed_data = analyzer.calculate_all_indicators()
-            print(f\"Indicators calculated: {len(analyzed_data.columns)} columns\")
+            print(f"Indicators calculated: {len(analyzed_data.columns)} columns")
             
-    print(\"\\\\n ALL TESTS PASSED!\")\n    
+    print("\n ALL TESTS PASSED!")
+    
 except Exception as e:
-    print(f\"Error: {e}\")
+    print(f"Error: {e}")
     import traceback
     traceback.print_exc()
